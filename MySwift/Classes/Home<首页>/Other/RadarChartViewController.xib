@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RadarChartViewController" customModule="MySwift" customModuleProvider="target">
+            <connections>
+                <outlet property="chartView" destination="J0h-dk-gco" id="ATY-w4-v9B"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3li-Qa-Gg9">
+                    <rect key="frame" x="133" y="66.5" width="108.5" height="25.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J0h-dk-gco" customClass="RadarChartView" customModule="Charts">
+                    <rect key="frame" x="0.0" y="112" width="375" height="555"/>
+                    <color key="backgroundColor" red="0.23529411759999999" green="0.25490196079999999" blue="0.32156862749999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.23529411759999999" green="0.25490196079999999" blue="0.32156862749999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="3li-Qa-Gg9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7fX-ez-lGB"/>
+                <constraint firstItem="J0h-dk-gco" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ASr-gg-Tfo"/>
+                <constraint firstAttribute="bottom" secondItem="J0h-dk-gco" secondAttribute="bottom" id="HHy-VA-ikc"/>
+                <constraint firstItem="3li-Qa-Gg9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="bottom" multiplier="0.1" id="Mre-Ej-q2X"/>
+                <constraint firstItem="J0h-dk-gco" firstAttribute="top" secondItem="3li-Qa-Gg9" secondAttribute="bottom" constant="20" id="f8w-sb-JK5"/>
+                <constraint firstAttribute="trailing" secondItem="J0h-dk-gco" secondAttribute="trailing" id="fFA-eU-KzN"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

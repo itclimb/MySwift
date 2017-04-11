@@ -1,0 +1,20 @@
+PODS:
+  - Charts (3.0.1):
+    - Charts/Core (= 3.0.1)
+  - Charts/Core (3.0.1)
+  - HandyJSON (1.6.1)
+  - SnapKit (3.2.0)
+
+DEPENDENCIES:
+  - Charts (~> 3.0.1)
+  - HandyJSON (~> 1.6.1)
+  - SnapKit (~> 3.2.0)
+
+SPEC CHECKSUMS:
+  Charts: 0e84f4418e87dad6a9edde221fba37ebb51d3ba7
+  HandyJSON: dcc98115467462a4749db81bc8a9052607600bdf
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+
+PODFILE CHECKSUM: 406919dda5751e4a41d5ef2f64e791f9deb9bc29
+
+COCOAPODS: 1.2.1.beta.1

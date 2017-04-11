@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>strColor</key>
+		<string>ffe718</string>
+		<key>image</key>
+		<string>yc_xingfushijie</string>
+		<key>title</key>
+		<string>北京幸福视界健康科技有限公司</string>
+		<key>yw_id</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>strColor</key>
+		<string>6cb12c</string>
+		<key>image</key>
+		<string>yc_xinjie</string>
+		<key>title</key>
+		<string>北京远程心界医院管理有限公司</string>
+		<key>yw_id</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>strColor</key>
+		<string>87cfef</string>
+		<key>image</key>
+		<string>yc_erbihou</string>
+		<key>title</key>
+		<string>北京远程中科耳鼻喉科医院管理有限公司</string>
+		<key>yw_id</key>
+		<string>5</string>
+	</dict>
+	<dict>
+		<key>strColor</key>
+		<string>e9ad4e</string>
+		<key>image</key>
+		<string>yc_zhongliu</string>
+		<key>title</key>
+		<string>北京远程金卫肿瘤医院管理有限公司</string>
+		<key>yw_id</key>
+		<string>6</string>
+	</dict>
+	<dict>
+		<key>strColor</key>
+		<string>ea4e4e</string>
+		<key>image</key>
+		<string>yc_huike</string>
+		<key>title</key>
+		<string>北京远程慧科信息医院科技有限公司</string>
+		<key>yw_id</key>
+		<string>7</string>
+	</dict>
+	<dict>
+		<key>strColor</key>
+		<string>914ee9</string>
+		<key>image</key>
+		<string>yc_fuke</string>
+		<key>title</key>
+		<string>北京远程中卫妇科医院管理有限公司</string>
+		<key>yw_id</key>
+		<string>10</string>
+	</dict>
+</array>
+</plist>
