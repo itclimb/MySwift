@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F164B181E77DA6100B7CB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F164B0B1E77DA6100B7CB9E /* AppDelegate.swift */; };
 		3F164B1A1E77DA6100B7CB9E /* JJBaseNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F164B0F1E77DA6100B7CB9E /* JJBaseNaviController.swift */; };
 		3F164B1B1E77DA6100B7CB9E /* JJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F164B101E77DA6100B7CB9E /* JJTabBarController.swift */; };
-		3F164B1C1E77DA6100B7CB9E /* JJUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F164B131E77DA6100B7CB9E /* JJUser.swift */; };
 		3F164B1D1E77DA6100B7CB9E /* JJUserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F164B141E77DA6100B7CB9E /* JJUserDefaultsExtension.swift */; };
 		3F164B1E1E77DA6100B7CB9E /* JJUserDefaultsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F164B151E77DA6100B7CB9E /* JJUserDefaultsProtocol.swift */; };
 		3F164B1F1E77DA6100B7CB9E /* JJTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F164B171E77DA6100B7CB9E /* JJTableViewController.swift */; };
@@ -18,6 +16,9 @@
 		3F164B2C1E77DC6800B7CB9E /* JJControllers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F164B2B1E77DC6800B7CB9E /* JJControllers.plist */; };
 		3F164B2E1E77DD2B00B7CB9E /* JJControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F164B2D1E77DD2B00B7CB9E /* JJControllerModel.swift */; };
 		3F2146FC1E8B8CF40083D5F9 /* JJPieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2146FB1E8B8CF40083D5F9 /* JJPieController.swift */; };
+		3F21ACA11EEA98E200D2B238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21ACA01EEA98E200D2B238 /* AppDelegate.swift */; };
+		3F21ACA41EEA995600D2B238 /* JJColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21ACA31EEA995600D2B238 /* JJColor.swift */; };
+		3F21ACA61EEA999300D2B238 /* JJUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21ACA51EEA999300D2B238 /* JJUser.swift */; };
 		3F2F0D091E948A070025002E /* JJBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F0D081E948A070025002E /* JJBarController.swift */; };
 		3F2F0D0C1E949C930025002E /* JJLineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F0D0B1E949C930025002E /* JJLineController.swift */; };
 		3F2F27F91E9735BD00CB23B7 /* DemoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F27F81E9735BD00CB23B7 /* DemoBaseViewController.swift */; };
@@ -29,7 +30,6 @@
 		3F8F7EA01E6814E400030B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8F7E9F1E6814E400030B30 /* Assets.xcassets */; };
 		3F8F7EA31E6814E400030B30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8F7EA11E6814E400030B30 /* LaunchScreen.storyboard */; };
 		3F939A741E8CA51B005C04A6 /* JJCommonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F939A731E8CA51B005C04A6 /* JJCommonModel.swift */; };
-		3F939A761E8CB5A9005C04A6 /* JJColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F939A751E8CB5A9005C04A6 /* JJColor.swift */; };
 		3F939A781E8CD1BF005C04A6 /* logoList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F939A771E8CD1BF005C04A6 /* logoList.plist */; };
 		3FEF120C1E7A7B9200B16AD8 /* JJByValueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF12091E7A7B9200B16AD8 /* JJByValueController.swift */; };
 		3FEF120E1E7A7BEE00B16AD8 /* JJDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF120D1E7A7BEE00B16AD8 /* JJDetailController.swift */; };
@@ -38,10 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F164B0B1E77DA6100B7CB9E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F164B0F1E77DA6100B7CB9E /* JJBaseNaviController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJBaseNaviController.swift; sourceTree = "<group>"; };
 		3F164B101E77DA6100B7CB9E /* JJTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJTabBarController.swift; sourceTree = "<group>"; };
-		3F164B131E77DA6100B7CB9E /* JJUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJUser.swift; sourceTree = "<group>"; };
 		3F164B141E77DA6100B7CB9E /* JJUserDefaultsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJUserDefaultsExtension.swift; sourceTree = "<group>"; };
 		3F164B151E77DA6100B7CB9E /* JJUserDefaultsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJUserDefaultsProtocol.swift; sourceTree = "<group>"; };
 		3F164B171E77DA6100B7CB9E /* JJTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJTableViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +47,9 @@
 		3F164B2B1E77DC6800B7CB9E /* JJControllers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JJControllers.plist; sourceTree = "<group>"; };
 		3F164B2D1E77DD2B00B7CB9E /* JJControllerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJControllerModel.swift; sourceTree = "<group>"; };
 		3F2146FB1E8B8CF40083D5F9 /* JJPieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJPieController.swift; sourceTree = "<group>"; };
+		3F21ACA01EEA98E200D2B238 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F21ACA31EEA995600D2B238 /* JJColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJColor.swift; sourceTree = "<group>"; };
+		3F21ACA51EEA999300D2B238 /* JJUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJUser.swift; sourceTree = "<group>"; };
 		3F2F0D081E948A070025002E /* JJBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJBarController.swift; sourceTree = "<group>"; };
 		3F2F0D0B1E949C930025002E /* JJLineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJLineController.swift; sourceTree = "<group>"; };
 		3F2F27F81E9735BD00CB23B7 /* DemoBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoBaseViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		3F8F7EA21E6814E400030B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F8F7EA41E6814E400030B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F939A731E8CA51B005C04A6 /* JJCommonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJCommonModel.swift; sourceTree = "<group>"; };
-		3F939A751E8CB5A9005C04A6 /* JJColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJColor.swift; sourceTree = "<group>"; };
 		3F939A771E8CD1BF005C04A6 /* logoList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = logoList.plist; sourceTree = "<group>"; };
 		3FEF12091E7A7B9200B16AD8 /* JJByValueController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJByValueController.swift; sourceTree = "<group>"; };
 		3FEF120D1E7A7BEE00B16AD8 /* JJDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJDetailController.swift; sourceTree = "<group>"; };
@@ -87,16 +87,16 @@
 		3F164B0A1E77DA6100B7CB9E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3F164B0B1E77DA6100B7CB9E /* AppDelegate.swift */,
 				3F164B0E1E77DA6100B7CB9E /* Main */,
-				3F164B0C1E77DA6100B7CB9E /* Home<首页> */,
-				3F164B161E77DA6100B7CB9E /* Set<设置> */,
+				3F164B0C1E77DA6100B7CB9E /* Home */,
+				3F164B161E77DA6100B7CB9E /* Set */,
 				3F164B111E77DA6100B7CB9E /* Other */,
+				3F21ACA21EEA98F500D2B238 /* Lib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		3F164B0C1E77DA6100B7CB9E /* Home<首页> */ = {
+		3F164B0C1E77DA6100B7CB9E /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				3F164B201E77DAA500B7CB9E /* Controller */,
@@ -104,12 +104,14 @@
 				3F164B221E77DAA500B7CB9E /* Model */,
 				3FEF12061E7A7B9200B16AD8 /* Other */,
 			);
+			name = Home;
 			path = "Home<首页>";
 			sourceTree = "<group>";
 		};
 		3F164B0E1E77DA6100B7CB9E /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3F21ACA01EEA98E200D2B238 /* AppDelegate.swift */,
 				3F164B101E77DA6100B7CB9E /* JJTabBarController.swift */,
 				3F164B0F1E77DA6100B7CB9E /* JJBaseNaviController.swift */,
 			);
@@ -119,27 +121,19 @@
 		3F164B111E77DA6100B7CB9E /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				3F164B121E77DA6100B7CB9E /* JJUser */,
+				3F21ACA51EEA999300D2B238 /* JJUser.swift */,
 				3F164B141E77DA6100B7CB9E /* JJUserDefaultsExtension.swift */,
 				3F164B151E77DA6100B7CB9E /* JJUserDefaultsProtocol.swift */,
-				3F939A751E8CB5A9005C04A6 /* JJColor.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
 		};
-		3F164B121E77DA6100B7CB9E /* JJUser */ = {
-			isa = PBXGroup;
-			children = (
-				3F164B131E77DA6100B7CB9E /* JJUser.swift */,
-			);
-			path = JJUser;
-			sourceTree = "<group>";
-		};
-		3F164B161E77DA6100B7CB9E /* Set<设置> */ = {
+		3F164B161E77DA6100B7CB9E /* Set */ = {
 			isa = PBXGroup;
 			children = (
 				3F164B171E77DA6100B7CB9E /* JJTableViewController.swift */,
 			);
+			name = Set;
 			path = "Set<设置>";
 			sourceTree = "<group>";
 		};
@@ -165,6 +159,14 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3F21ACA21EEA98F500D2B238 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				3F21ACA31EEA995600D2B238 /* JJColor.swift */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 		3F32B04C1E8A4A000052A505 /* Charts<图表> */ = {
@@ -327,6 +329,7 @@
 		3F8F7E8D1E6814E400030B30 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JJ;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = itclimb.yuancheng.com;
@@ -424,21 +427,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F939A761E8CB5A9005C04A6 /* JJColor.swift in Sources */,
+				3F21ACA11EEA98E200D2B238 /* AppDelegate.swift in Sources */,
 				3F164B1D1E77DA6100B7CB9E /* JJUserDefaultsExtension.swift in Sources */,
 				3F164B1F1E77DA6100B7CB9E /* JJTableViewController.swift in Sources */,
 				3F164B241E77DAA500B7CB9E /* JJHomeController.swift in Sources */,
 				3FEF120C1E7A7B9200B16AD8 /* JJByValueController.swift in Sources */,
 				3F939A741E8CA51B005C04A6 /* JJCommonModel.swift in Sources */,
-				3F164B181E77DA6100B7CB9E /* AppDelegate.swift in Sources */,
 				3F164B2E1E77DD2B00B7CB9E /* JJControllerModel.swift in Sources */,
 				3F2146FC1E8B8CF40083D5F9 /* JJPieController.swift in Sources */,
 				3FEF12101E7A82EE00B16AD8 /* JJDetailModel.swift in Sources */,
 				3F2F27FE1E97399F00CB23B7 /* RadarChartViewController.swift in Sources */,
 				3F164B1E1E77DA6100B7CB9E /* JJUserDefaultsProtocol.swift in Sources */,
 				3F164B1A1E77DA6100B7CB9E /* JJBaseNaviController.swift in Sources */,
+				3F21ACA41EEA995600D2B238 /* JJColor.swift in Sources */,
 				3FEF120E1E7A7BEE00B16AD8 /* JJDetailController.swift in Sources */,
-				3F164B1C1E77DA6100B7CB9E /* JJUser.swift in Sources */,
 				3F32B0521E8A4A000052A505 /* JJChartsController.swift in Sources */,
 				3F2F0D091E948A070025002E /* JJBarController.swift in Sources */,
 				3F32B0571E8B68C20052A505 /* JJChartsView.swift in Sources */,
@@ -446,6 +448,7 @@
 				3F2F27F91E9735BD00CB23B7 /* DemoBaseViewController.swift in Sources */,
 				3F32B0531E8A4A000052A505 /* JJChartsCell.swift in Sources */,
 				3F164B1B1E77DA6100B7CB9E /* JJTabBarController.swift in Sources */,
+				3F21ACA61EEA999300D2B238 /* JJUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
