@@ -78,6 +78,9 @@ extension JJHomeController: UITableViewDataSource,UITableViewDelegate{
         case 2:
             let vc = RadarChartViewController()
             self.navigationController?.pushViewController(vc, animated: true)
+        case 3:
+            let vc = JJTestViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
 
         default: break
             

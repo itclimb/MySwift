@@ -26,5 +26,13 @@
 		<key>vcTitle</key>
 		<string>图表</string>
 	</dict>
+	<dict>
+		<key>vcName</key>
+		<string>JJTestViewController</string>
+		<key>vcType</key>
+		<string>ViewController</string>
+		<key>vcTitle</key>
+		<string>test</string>
+	</dict>
 </array>
 </plist>

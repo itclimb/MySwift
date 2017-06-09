@@ -19,6 +19,8 @@
 		3F21ACA11EEA98E200D2B238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21ACA01EEA98E200D2B238 /* AppDelegate.swift */; };
 		3F21ACA41EEA995600D2B238 /* JJColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21ACA31EEA995600D2B238 /* JJColor.swift */; };
 		3F21ACA61EEA999300D2B238 /* JJUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21ACA51EEA999300D2B238 /* JJUser.swift */; };
+		3F29EC7F1EEAA32700959533 /* UIView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29EC7E1EEAA32700959533 /* UIView_Extension.swift */; };
+		3F29EC811EEAA5FD00959533 /* JJTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29EC801EEAA5FD00959533 /* JJTestViewController.swift */; };
 		3F2F0D091E948A070025002E /* JJBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F0D081E948A070025002E /* JJBarController.swift */; };
 		3F2F0D0C1E949C930025002E /* JJLineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F0D0B1E949C930025002E /* JJLineController.swift */; };
 		3F2F27F91E9735BD00CB23B7 /* DemoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F27F81E9735BD00CB23B7 /* DemoBaseViewController.swift */; };
@@ -50,6 +52,8 @@
 		3F21ACA01EEA98E200D2B238 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F21ACA31EEA995600D2B238 /* JJColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJColor.swift; sourceTree = "<group>"; };
 		3F21ACA51EEA999300D2B238 /* JJUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJUser.swift; sourceTree = "<group>"; };
+		3F29EC7E1EEAA32700959533 /* UIView_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_Extension.swift; sourceTree = "<group>"; };
+		3F29EC801EEAA5FD00959533 /* JJTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJTestViewController.swift; sourceTree = "<group>"; };
 		3F2F0D081E948A070025002E /* JJBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJBarController.swift; sourceTree = "<group>"; };
 		3F2F0D0B1E949C930025002E /* JJLineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJLineController.swift; sourceTree = "<group>"; };
 		3F2F27F81E9735BD00CB23B7 /* DemoBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoBaseViewController.swift; sourceTree = "<group>"; };
@@ -165,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				3F21ACA31EEA995600D2B238 /* JJColor.swift */,
+				3F29EC7E1EEAA32700959533 /* UIView_Extension.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 				3F2F27F81E9735BD00CB23B7 /* DemoBaseViewController.swift */,
 				3F2F27FC1E97399F00CB23B7 /* RadarChartViewController.swift */,
 				3F2F27FD1E97399F00CB23B7 /* RadarChartViewController.xib */,
+				3F29EC801EEAA5FD00959533 /* JJTestViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -427,6 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F29EC811EEAA5FD00959533 /* JJTestViewController.swift in Sources */,
 				3F21ACA11EEA98E200D2B238 /* AppDelegate.swift in Sources */,
 				3F164B1D1E77DA6100B7CB9E /* JJUserDefaultsExtension.swift in Sources */,
 				3F164B1F1E77DA6100B7CB9E /* JJTableViewController.swift in Sources */,
@@ -438,6 +445,7 @@
 				3FEF12101E7A82EE00B16AD8 /* JJDetailModel.swift in Sources */,
 				3F2F27FE1E97399F00CB23B7 /* RadarChartViewController.swift in Sources */,
 				3F164B1E1E77DA6100B7CB9E /* JJUserDefaultsProtocol.swift in Sources */,
+				3F29EC7F1EEAA32700959533 /* UIView_Extension.swift in Sources */,
 				3F164B1A1E77DA6100B7CB9E /* JJBaseNaviController.swift in Sources */,
 				3F21ACA41EEA995600D2B238 /* JJColor.swift in Sources */,
 				3FEF120E1E7A7BEE00B16AD8 /* JJDetailController.swift in Sources */,
