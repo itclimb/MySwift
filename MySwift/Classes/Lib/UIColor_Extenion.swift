@@ -1,8 +1,8 @@
 //
-//  JJColor.swift
+//  UIColor_Extenion.swift
 //  MySwift
 //
-//  Created by itclimb on 30/03/2017.
+//  Created by itclimb on 09/06/2017.
 //  Copyright © 2017 itclimb.yuancheng.com. All rights reserved.
 //
 
