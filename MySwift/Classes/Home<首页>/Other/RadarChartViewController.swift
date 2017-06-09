@@ -93,14 +93,15 @@ class RadarChartViewController: DemoBaseViewController {
         yAxis.drawLabelsEnabled = false
 
         let l = chartView.legend
-//        l.horizontalAlignment = HorizontalAlignment.center
-//        l.verticalAlignment = VerticalAlignment.top
-//        l.orientation = ChartLegendOrientationHorizontal
+        l.orientation = .horizontal
+        l.verticalAlignment = .top
+        l.horizontalAlignment = .center
         l.drawInside = false
         l.font = UIFont.systemFont(ofSize: 10.0)
         l.xEntrySpace = 7.0
         l.yEntrySpace = 5.0
-        l.textColor = UIColor.white
+        l.textColor = UIColor.red
+        l.form = .circle
         
         updateChartData()
     
@@ -225,7 +226,7 @@ class RadarChartViewController: DemoBaseViewController {
             chartView.spin(duration: 2.0, fromAngle: chartView.rotationAngle, toAngle: chartView.rotationAngle + 360.0)
             return;
         }
-        super.handleOptionWit(key: key, chartView: chartView)
+//        super.handleOptionWith(key: key, chartView: chartView)
     }
     
 

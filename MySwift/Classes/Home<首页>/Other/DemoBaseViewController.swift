@@ -21,17 +21,8 @@ class DemoBaseViewController: UIViewController {
     
     let shouldHideData: Bool = false
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        parties = [
-            "Party A", "Party B", "Party C", "Party D", "Party E", "Party F",
-            "Party G", "Party H", "Party I", "Party J", "Party K", "Party L",
-            "Party M", "Party N", "Party O", "Party P", "Party Q", "Party R",
-            "Party S", "Party T", "Party U", "Party V", "Party W", "Party X",
-            "Party Y", "Party Z"
-        ]
         
         optionButton = UIButton.init(type: .custom)
         view.addSubview(optionButton)
@@ -55,7 +46,7 @@ class DemoBaseViewController: UIViewController {
     
     //MARK: - Common option actions
     
-    func handleOptionWit(key: String, chartView: ChartViewBase) {
+    func handleOptionWith(key: String, chartView: ChartViewBase) {
         if key == "toggleValues" {
             for set in (chartView.data?.dataSets)! {
                 set.drawValuesEnabled = !set.isDrawValuesEnabled
