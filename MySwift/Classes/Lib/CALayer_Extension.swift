@@ -1,5 +1,5 @@
 //
-//  UIView_Extension.swift
+//  CALayer_Extension.swift
 //  MySwift
 //
 //  Created by itclimb on 09/06/2017.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIView{
+extension CALayer{
     var x: CGFloat {
         get {
             return self.frame.origin.x
@@ -63,18 +63,18 @@ extension UIView{
     
     var centerX: CGFloat {
         get {
-            return self.center.x
+            return self.centerX
         }
         set {
-            self.center.x = newValue
+            self.centerX = newValue
         }
     }
     var centerY: CGFloat {
         get {
-            return self.center.y
+            return self.centerY
         }
         set {
-            self.center.y = newValue
+            self.centerY = newValue
         }
     }
     

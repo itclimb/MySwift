@@ -21,6 +21,8 @@
 		3F29EC7F1EEAA32700959533 /* UIView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29EC7E1EEAA32700959533 /* UIView_Extension.swift */; };
 		3F29EC811EEAA5FD00959533 /* JJTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29EC801EEAA5FD00959533 /* JJTestViewController.swift */; };
 		3F29EC831EEAAAFD00959533 /* UIColor_Extenion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29EC821EEAAAFD00959533 /* UIColor_Extenion.swift */; };
+		3F29EC851EEAAD4700959533 /* CALayer_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29EC841EEAAD4700959533 /* CALayer_Extension.swift */; };
+		3F29ED521EEFE97C00959533 /* UIScreen_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29ED511EEFE97C00959533 /* UIScreen_Extension.swift */; };
 		3F2F0D091E948A070025002E /* JJBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F0D081E948A070025002E /* JJBarController.swift */; };
 		3F2F0D0C1E949C930025002E /* JJLineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F0D0B1E949C930025002E /* JJLineController.swift */; };
 		3F2F27F91E9735BD00CB23B7 /* DemoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F27F81E9735BD00CB23B7 /* DemoBaseViewController.swift */; };
@@ -54,6 +56,8 @@
 		3F29EC7E1EEAA32700959533 /* UIView_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_Extension.swift; sourceTree = "<group>"; };
 		3F29EC801EEAA5FD00959533 /* JJTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJTestViewController.swift; sourceTree = "<group>"; };
 		3F29EC821EEAAAFD00959533 /* UIColor_Extenion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_Extenion.swift; sourceTree = "<group>"; };
+		3F29EC841EEAAD4700959533 /* CALayer_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayer_Extension.swift; sourceTree = "<group>"; };
+		3F29ED511EEFE97C00959533 /* UIScreen_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreen_Extension.swift; sourceTree = "<group>"; };
 		3F2F0D081E948A070025002E /* JJBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJBarController.swift; sourceTree = "<group>"; };
 		3F2F0D0B1E949C930025002E /* JJLineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJLineController.swift; sourceTree = "<group>"; };
 		3F2F27F81E9735BD00CB23B7 /* DemoBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoBaseViewController.swift; sourceTree = "<group>"; };
@@ -170,6 +174,8 @@
 			children = (
 				3F29EC7E1EEAA32700959533 /* UIView_Extension.swift */,
 				3F29EC821EEAAAFD00959533 /* UIColor_Extenion.swift */,
+				3F29EC841EEAAD4700959533 /* CALayer_Extension.swift */,
+				3F29ED511EEFE97C00959533 /* UIScreen_Extension.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -436,7 +442,9 @@
 				3F29EC811EEAA5FD00959533 /* JJTestViewController.swift in Sources */,
 				3F21ACA11EEA98E200D2B238 /* AppDelegate.swift in Sources */,
 				3F164B1D1E77DA6100B7CB9E /* JJUserDefaultsExtension.swift in Sources */,
+				3F29EC851EEAAD4700959533 /* CALayer_Extension.swift in Sources */,
 				3F164B1F1E77DA6100B7CB9E /* JJTableViewController.swift in Sources */,
+				3F29ED521EEFE97C00959533 /* UIScreen_Extension.swift in Sources */,
 				3F164B241E77DAA500B7CB9E /* JJHomeController.swift in Sources */,
 				3FEF120C1E7A7B9200B16AD8 /* JJByValueController.swift in Sources */,
 				3F939A741E8CA51B005C04A6 /* JJCommonModel.swift in Sources */,
