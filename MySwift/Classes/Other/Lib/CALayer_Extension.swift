@@ -86,7 +86,7 @@ extension CALayer{
             self.frame.origin = newValue
         }
     }
-    var size: CGSize {
+    var frameSize: CGSize {
         get {
             return self.frame.size
         }
