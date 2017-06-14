@@ -43,8 +43,8 @@ extension JJChartsController: UICollectionViewDelegate,UICollectionViewDataSourc
         collectionView?.backgroundColor = UIColor.white
         
         let column: CGFloat = 3
-        let margin: CGFloat = 10
-        item_width = (UIScreen.main.bounds.width - (column + 1) * margin)/column
+        let margin: CGFloat = 5
+        item_width = (UIScreen.width - (column + 1) * margin)/column
         let item_height = item_width
         layout.itemSize = CGSize(width: item_width!, height: item_height!)
         self.view.addSubview(collectionView!)
