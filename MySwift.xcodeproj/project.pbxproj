@@ -244,8 +244,8 @@
 		3F29ED6B1EF0D55E00959533 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3F29ED6C1EF0D55E00959533 /* JJBarController.swift */,
 				3F29ED6D1EF0D55E00959533 /* JJChartsController.swift */,
+				3F29ED6C1EF0D55E00959533 /* JJBarController.swift */,
 				3F29ED6E1EF0D55E00959533 /* JJLineController.swift */,
 				3F29ED6F1EF0D55E00959533 /* JJPieController.swift */,
 			);

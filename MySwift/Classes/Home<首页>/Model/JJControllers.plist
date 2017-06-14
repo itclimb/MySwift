@@ -9,6 +9,8 @@
 		<string>ViewController</string>
 		<key>vcTitle</key>
 		<string>传值</string>
+		<key>cellColor</key>
+		<string>#FC7541</string>
 	</dict>
 	<dict>
 		<key>vcName</key>
@@ -17,6 +19,8 @@
 		<string>ViewController</string>
 		<key>vcTitle</key>
 		<string>基本</string>
+		<key>cellColor</key>
+		<string>#57D4AD</string>
 	</dict>
 	<dict>
 		<key>vcName</key>
@@ -25,6 +29,8 @@
 		<string>ViewController</string>
 		<key>vcTitle</key>
 		<string>雷达条形图</string>
+		<key>cellColor</key>
+		<string>#E8AD62</string>
 	</dict>
 	<dict>
 		<key>vcName</key>
@@ -33,6 +39,8 @@
 		<string>ViewController</string>
 		<key>vcTitle</key>
 		<string>test</string>
+		<key>cellColor</key>
+		<string>#7ABE64</string>
 	</dict>
 	<dict>
 		<key>vcName</key>
@@ -41,6 +49,8 @@
 		<string>ViewController</string>
 		<key>vcTitle</key>
 		<string>覆盖图</string>
+		<key>cellColor</key>
+		<string>#63B4D6</string>
 	</dict>
 </array>
 </plist>

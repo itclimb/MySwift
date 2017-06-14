@@ -13,6 +13,7 @@ class JJControllerModel: NSObject {
     var vcName: String?
     var vcType: String?
     var vcTitle: String?
+    var cellColor: String?
 
     init(dict: [String:Any]) {
         super.init()

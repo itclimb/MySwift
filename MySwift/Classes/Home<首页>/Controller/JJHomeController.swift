@@ -10,14 +10,11 @@ import UIKit
 
 class JJHomeController: UIViewController {
     
-    var styles:Array<String>! , colors: Array<String>!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
         view.addSubview(list)
-        
+    
         test()
     }
 
@@ -63,10 +60,15 @@ extension JJHomeController: UITableViewDataSource,UITableViewDelegate{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let ID = "cell"
-        let cell = JJHomeCell(style: .default, reuseIdentifier: ID)
+        var cell = tableView.dequeueReusableCell(withIdentifier: ID) as? JJHomeCell
+        if cell == nil {
+            cell = JJHomeCell(style: .default, reuseIdentifier: ID)
+        }
+        
         let data:JJControllerModel = self.datas[indexPath.row] as! JJControllerModel
-        cell.firstTitle.text = data.vcTitle
-        return cell
+        cell?.firstTitle.text = data.vcTitle
+        cell?.firstTitle.backgroundColor = UIColor.colorWithHexString(hex: data.cellColor!);
+        return cell!
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -181,6 +183,8 @@ fileprivate class JJHomeCell: UITableViewCell {
     }
     
     override func layoutSubviews() {
+        super.layoutSubviews()
+        
         firstTitle.size = CGSize(width: 222, height: 40)
         firstTitle.bottom = contentView.bottom
         firstTitle.centerX = contentView.centerX

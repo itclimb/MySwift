@@ -42,7 +42,7 @@ class JJByValueController: UIViewController {
         let tableView :UITableView = UITableView(frame: UIScreen.main.bounds, style: UITableViewStyle.plain)
         tableView.delegate = self
         tableView.dataSource = self
-        
+        tableView.register(JJByValueCell.classForCoder(), forCellReuseIdentifier: "cellId")
         return tableView
     }()
     
@@ -59,21 +59,20 @@ extension JJByValueController:UITableViewDataSource,UITableViewDelegate{
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return (self.models?.count)!
     }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cellID = "id"
-        var cell = tableView.dequeueReusableCell(withIdentifier: cellID)
-        if cell == nil {
-            cell = UITableViewCell(style: .subtitle, reuseIdentifier: cellID)
-        }
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellId") as? JJByValueCell
         let model = self.models?[indexPath.row]
-        cell?.imageView?.image = UIImage(named: (model?.iconName)!)
-        cell?.textLabel?.text = model?.title
-        cell?.detailTextLabel?.text = model?.describe
+        cell?.icon.image = UIImage.init(named: (model?.iconName)!)
+        cell?.first.text = model?.title
+        cell?.second.text = model?.describe
+        cell?.separatorInset = .zero
         return cell!
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        tableView.deselectRow(at: indexPath, animated: true)
         let vc = JJDetailController()
         let model = self.models?[indexPath.row]
         vc.model = model
@@ -85,7 +84,7 @@ extension JJByValueController:UITableViewDataSource,UITableViewDelegate{
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
+        return 90
     }
     
 }
@@ -110,4 +109,59 @@ extension JJByValueController{
         }
         
     }
+}
+
+fileprivate class JJByValueCell: UITableViewCell {
+    
+    var icon: UIImageView!, first: UILabel!, second: UILabel!
+    
+    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        icon = UIImageView()
+        icon.layer.masksToBounds = true
+        icon.layer.cornerRadius = 40
+        icon.image = UIImage.init(named: "dog")
+        contentView.addSubview(icon)
+        icon.snp.makeConstraints { (make) in
+            make.leading.equalTo(contentView).offset(10)
+            make.width.height.equalTo(80)
+            make.centerY.equalTo(contentView)
+        }
+        
+        first = UILabel()
+        first.font = UIFont(name: "Gurmukhi MN", size: 18.0)
+        first.textColor = UIColor.black
+        first.backgroundColor = UIColor.white
+        contentView.addSubview(first)
+        first.snp.makeConstraints { (make) in
+            make.leading.equalTo(icon.snp.trailing).offset(20)
+            make.top.equalTo(contentView).offset(10)
+            make.right.equalTo(contentView)
+            make.height.equalTo(30)
+        }
+        
+        second = UILabel()
+        second.font = UIFont(name: "", size: 17.0)
+        second.textColor = UIColor.darkGray
+        second.backgroundColor = UIColor.white
+        contentView.addSubview(second)
+        second.snp.makeConstraints { (make) in
+            make.leading.equalTo(first)
+            make.top.equalTo(first.snp.bottom).offset(10)
+            make.right.equalTo(contentView)
+            make.height.equalTo(30)
+        }
+        
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+    }
+    
+    
 }
