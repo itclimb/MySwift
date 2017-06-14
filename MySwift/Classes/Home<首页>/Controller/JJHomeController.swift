@@ -10,6 +10,9 @@ import UIKit
 
 class JJHomeController: UIViewController {
     
+    var styles:Array<String>! , colors: Array<String>!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
@@ -28,6 +31,8 @@ class JJHomeController: UIViewController {
         let tableView = UITableView(frame: self.view.bounds, style: UITableViewStyle.plain)
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.separatorStyle = .none
+        tableView.rowHeight = 80
         return tableView
     }()
     
@@ -50,23 +55,20 @@ class JJHomeController: UIViewController {
 extension JJHomeController: UITableViewDataSource,UITableViewDelegate{
 
     @available(iOS 2.0, *)
+    
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.datas.count
     }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let ID = "cell"
-        var cell = tableView.dequeueReusableCell(withIdentifier: ID)
-        if cell == nil {
-            cell = UITableViewCell.init(style: .subtitle, reuseIdentifier: ID)
-        }
+        let cell = JJHomeCell(style: .default, reuseIdentifier: ID)
         let data:JJControllerModel = self.datas[indexPath.row] as! JJControllerModel
-        cell?.textLabel?.text = data.vcName
-        cell?.detailTextLabel?.text = data.vcTitle
-        return cell!
+        cell.firstTitle.text = data.vcTitle
+        return cell
     }
     
-    //UITableViewDelegate
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
         case 0:
@@ -81,16 +83,14 @@ extension JJHomeController: UITableViewDataSource,UITableViewDelegate{
         case 3:
             let vc = JJTestViewController()
             self.navigationController?.pushViewController(vc, animated: true)
+        case 4:
+            let vc = JJOverlayViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
 
         default: break
             
         }
     }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
-    }
-    
 }
 
 //富文本展示
@@ -161,4 +161,33 @@ func versionCheck(){
     _ = UIDevice.current.model
     //设备区域化型号 如 A1533
     _ = UIDevice.current.localizedModel
+}
+
+fileprivate class JJHomeCell: UITableViewCell {
+    
+    var firstTitle: UILabel!
+    
+    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        self.selectionStyle = .none
+        firstTitle = UILabel()
+        firstTitle.textColor = UIColor.white
+        firstTitle.backgroundColor = UIColor.brown
+        firstTitle.textAlignment = .center
+        firstTitle.font = UIFont(name: "", size: 20.0)//Apple SD Gothic Neo
+        firstTitle.layer.masksToBounds = true
+        firstTitle.layer.cornerRadius = 5
+        contentView.addSubview(firstTitle)
+    }
+    
+    override func layoutSubviews() {
+        firstTitle.size = CGSize(width: 222, height: 40)
+        firstTitle.bottom = contentView.bottom
+        firstTitle.centerX = contentView.centerX
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
 }

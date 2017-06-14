@@ -41,13 +41,13 @@ class JJBaseNaviController: UINavigationController {
     //重写导航控制器的push方法
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         
-        viewController.navigationItem.hidesBackButton = true
+//        viewController.navigationItem.hidesBackButton = true
         
         if childViewControllers.count > 0 {
             
-            UINavigationBar.appearance().backItem?.hidesBackButton=false
+            UINavigationBar.appearance().backItem?.hidesBackButton = false
             
-            viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: backBtn)
+//            viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: backBtn)
             //隐藏底部标签
             viewController.hidesBottomBarWhenPushed = true
         }

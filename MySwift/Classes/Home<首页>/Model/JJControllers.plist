@@ -16,7 +16,7 @@
 		<key>vcType</key>
 		<string>ViewController</string>
 		<key>vcTitle</key>
-		<string>图表</string>
+		<string>基本</string>
 	</dict>
 	<dict>
 		<key>vcName</key>
@@ -24,7 +24,7 @@
 		<key>vcType</key>
 		<string>ViewController</string>
 		<key>vcTitle</key>
-		<string>图表</string>
+		<string>雷达条形图</string>
 	</dict>
 	<dict>
 		<key>vcName</key>
@@ -33,6 +33,14 @@
 		<string>ViewController</string>
 		<key>vcTitle</key>
 		<string>test</string>
+	</dict>
+	<dict>
+		<key>vcName</key>
+		<string>JJOverlayViewController</string>
+		<key>vcType</key>
+		<string>ViewController</string>
+		<key>vcTitle</key>
+		<string>覆盖图</string>
 	</dict>
 </array>
 </plist>
