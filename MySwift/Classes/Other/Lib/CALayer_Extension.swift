@@ -63,18 +63,18 @@ extension CALayer{
     
     var centerX: CGFloat {
         get {
-            return self.centerX
+            return self.frame.origin.x + self.frame.size.width * 0.5
         }
         set {
-            self.centerX = newValue
+            self.frame.origin.x = newValue - self.frame.size.width * 0.5
         }
     }
     var centerY: CGFloat {
         get {
-            return self.centerY
+            return self.frame.origin.y + self.frame.size.height * 0.5
         }
         set {
-            self.centerY = newValue
+            self.frame.origin.y = newValue - self.frame.size.height * 0.5
         }
     }
     

@@ -35,7 +35,7 @@ class JJChartsCell: UICollectionViewCell {
         titleLabel = UILabel(frame: CGRect(x: title_X, y: title_Y, width: title_width, height: title_height))
         titleLabel?.textAlignment = .center
         titleLabel?.numberOfLines = 0
-        titleLabel?.backgroundColor = UIColor.purple
+        titleLabel?.backgroundColor = UIColor.magenta
         titleLabel?.layer.masksToBounds = true
         titleLabel?.layer.cornerRadius = 5
         titleLabel?.layer.borderWidth = 1
