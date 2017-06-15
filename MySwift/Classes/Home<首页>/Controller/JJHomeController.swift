@@ -65,10 +65,15 @@ extension JJHomeController: UITableViewDataSource,UITableViewDelegate{
             cell = JJHomeCell(style: .default, reuseIdentifier: ID)
         }
         
-        let data:JJControllerModel = self.datas[indexPath.row] as! JJControllerModel
-        cell?.firstTitle.text = data.vcTitle
-        cell?.firstTitle.backgroundColor = UIColor.colorWithHexString(hex: data.cellColor!);
         return cell!
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        let cell: JJHomeCell = cell as! JJHomeCell
+        let data:JJControllerModel = self.datas[indexPath.row] as! JJControllerModel
+        cell.firstTitle.text = data.vcTitle
+        cell.firstTitle.backgroundColor = UIColor.colorWithHexString(hex: data.cellColor!);
+        
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -86,7 +91,7 @@ extension JJHomeController: UITableViewDataSource,UITableViewDelegate{
             let vc = JJTestViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         case 4:
-            let vc = JJOverlayViewController()
+            let vc = JJOverlayViewController() //覆盖图
             self.navigationController?.pushViewController(vc, animated: true)
 
         default: break

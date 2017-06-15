@@ -18,7 +18,7 @@ class JJOverlayViewController: UIViewController, UITableViewDataSource, UITableV
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
         
-        datas = ["slogan", "warn", "sheetView", "QQ_zone", "sidebar", "Snail"]
+        datas = ["标语", "提示框", "分享", "QQ_zone", "侧边栏", "缓慢移动"]
         view.addSubview(tableView)
     }
 
@@ -65,7 +65,6 @@ class JJOverlayViewController: UIViewController, UITableViewDataSource, UITableV
     
     func sample0() {
         let sloganView = UIImageView(image: UIImage(named: "slogan.jpg"))
-        sloganView.backgroundColor = UIColor.blue
         sloganView.size = CGSize(width: UIScreen.width * 0.75, height: UIScreen.width * 0.9)
         sloganView.layer.cornerRadius = 4
         overlayController = OverlayController(aView: sloganView, overlayStyle: .BlackTranslucent)
@@ -77,7 +76,7 @@ class JJOverlayViewController: UIViewController, UITableViewDataSource, UITableV
     func sample1() {
         let warnView = SnailWarnView()
         warnView.width = UIScreen.width * 0.75
-        warnView.setWarnContents(title: "提示", message: "切换城市失败，是否重试？", okButtonTitle: "确定", cancelButtonTitle: "取消")
+        warnView.setWarnContents(title: "提示", message: "切换城市失败，是否重试?", okButtonTitle: "确定", cancelButtonTitle: "取消")
         warnView.component.unifiedColor = UIColor.colorWithHexString(hex: "#FC7541")
         warnView.component.okButton.addTarget(self, action: #selector(okClicked(_:)), for: .touchUpInside)
         warnView.component.cancelButton.addTarget(self, action: #selector(okClicked(_:)), for: .touchUpInside)
@@ -102,7 +101,7 @@ class JJOverlayViewController: UIViewController, UITableViewDataSource, UITableV
         overlayController.presentationStyle = .Bottom
         overlayController.isAllowDrag = true
         overlayController.isUsingElastic = true
-        overlayController.delegate = self
+//        overlayController.delegate = self
         overlayController.present(animated: true)
     }
     
