@@ -15,7 +15,7 @@ class JJHomeController: UIViewController {
         view.backgroundColor = UIColor.white
         view.addSubview(list)
     
-        test()
+        test(parameter1: 30)
     }
 
     override func didReceiveMemoryWarning() {
@@ -139,14 +139,22 @@ func greater(_ comparer: Int) -> (Int) -> Bool {
 }
 
 //MARK: - Test
-func test() {
-    //Test content
-//    let greaterThan10 = greater(10)
-//    print(greaterThan10(13))
-//    print(greaterThan10(9))
-    versionCheck()
+
+/**
+ //    let greaterThan10 = greater(10)
+ //    print(greaterThan10(13))
+ //    print(greaterThan10(9))
+ */
+func test(parameter1: CGFloat, parameter2: CGFloat = 0) {
+    print("----",parameter1)
 }
 
+//func test(parameter1: CGFloat) {
+//    print("=====",parameter1)
+//    
+//}
+
+//MARK: - 版本检测
 func versionCheck(){
     
     let infoDictionary = Bundle.main.infoDictionary

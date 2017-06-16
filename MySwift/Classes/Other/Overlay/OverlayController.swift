@@ -91,7 +91,8 @@ class OverlayController: NSObject, UIGestureRecognizerDelegate{
         
         superview = UIApplication.shared.keyWindow!
         overlay = overlaySetStyle(overlayStyle: overlayStyle)
-        var frame = aView.frame; frame.origin = .zero; aView.frame = frame
+//        var frame = aView.frame; frame.origin = .zero; aView.frame = frame
+        aView.frame.origin = .zero
         popupView.frame = aView.frame
         popupView.clipsToBounds = true
         popupView.backgroundColor = aView.backgroundColor
@@ -184,7 +185,7 @@ class OverlayController: NSObject, UIGestureRecognizerDelegate{
     
         delegate?.overlayControllerWillDismiss?(overlayController: self)
         
-        if isUsingElastic { animateDuration *= 0.3 }
+        if isUsingElastic { animateDuration /= 3 }
         UIView.animate(withDuration: animated ? animateDuration : 0, delay: 0.1, options: UIViewAnimationOptions.curveEaseOut, animations: { () -> Void in
             self.overlay.alpha = 0
             self.popupView.center = self.dismissedPoint()
@@ -320,7 +321,10 @@ class OverlayController: NSObject, UIGestureRecognizerDelegate{
         if isInternalChangedDirection {
             isDismissedOppositeDirection = !isDismissedOppositeDirection
         }
-        if isAllowOverlayTouch { dismiss(animated: isAnimated) }
+        if isAllowOverlayTouch {
+            
+            dismiss(animated: isAnimated)
+        }
     }
     
     // MARK:- Action >> handlePan -

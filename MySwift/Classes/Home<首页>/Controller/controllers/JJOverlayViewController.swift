@@ -68,7 +68,7 @@ class JJOverlayViewController: UIViewController, UITableViewDataSource, UITableV
         sloganView.size = CGSize(width: UIScreen.width * 0.75, height: UIScreen.width * 0.9)
         sloganView.layer.cornerRadius = 4
         overlayController = OverlayController(aView: sloganView, overlayStyle: .BlackTranslucent)
-        overlayController.transitionStyle = .FromCenter
+        overlayController.transitionStyle = .FromLeft
         overlayController.isUsingElastic = true
         overlayController.present(animated: true)
     }
