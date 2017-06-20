@@ -17,11 +17,9 @@ class JJTabBarController: UITabBarController {
         addChildViewController(VieWContorller: homeVc, titleName: "首页", imageName: "TabBar_home")
         let tableVc = JJTableViewController()
         addChildViewController(VieWContorller: tableVc, titleName: "设置", imageName: "TabBar_withdrawDeposit")
-        
     }
     
-    
-    fileprivate   func  addChildViewController( VieWContorller:UIViewController , titleName:String , imageName:String){
+    fileprivate func addChildViewController( VieWContorller:UIViewController , titleName:String , imageName:String){
         
         VieWContorller.tabBarItem.image = UIImage(named: imageName )
         VieWContorller.tabBarItem.selectedImage  = UIImage(named: imageName + "_select")
@@ -29,7 +27,6 @@ class JJTabBarController: UITabBarController {
         let nav = JJBaseNaviController()
         nav.addChildViewController(VieWContorller)
         addChildViewController(nav)
-        
     }
 
     override func didReceiveMemoryWarning() {
