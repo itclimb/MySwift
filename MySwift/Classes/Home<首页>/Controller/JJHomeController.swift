@@ -88,7 +88,7 @@ extension JJHomeController: UITableViewDataSource,UITableViewDelegate{
             let vc = RadarChartViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         case 3:
-            let vc = JJTestViewController()
+            let vc = JJAutoLayoutController()
             self.navigationController?.pushViewController(vc, animated: true)
         case 4:
             let vc = JJOverlayViewController() //覆盖图

@@ -38,7 +38,7 @@
 		<key>vcType</key>
 		<string>ViewController</string>
 		<key>vcTitle</key>
-		<string>test</string>
+		<string>AutoLayout</string>
 		<key>cellColor</key>
 		<string>#7ABE64</string>
 	</dict>

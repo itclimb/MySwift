@@ -276,7 +276,7 @@ class SnailFullView: UIView, UIScrollViewDelegate {
         closeIcon.center = closeButton.center
         self.addSubview(closeIcon)
         UIView.animate(withDuration: 0.5) {
-            self.closeIcon.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI_4))
+            self.closeIcon.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi/4))
         }
         
         scrollContainer.bounces = false

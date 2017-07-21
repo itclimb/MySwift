@@ -36,12 +36,16 @@
 		3F29ED831EF0D55E00959533 /* JJChartsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29ED741EF0D55E00959533 /* JJChartsCell.swift */; };
 		3F29ED841EF0D55E00959533 /* JJChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29ED751EF0D55E00959533 /* JJChartsView.swift */; };
 		3F29ED851EF0D55E00959533 /* DemoBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29ED761EF0D55E00959533 /* DemoBaseViewController.swift */; };
-		3F29ED861EF0D55E00959533 /* JJTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29ED771EF0D55E00959533 /* JJTestViewController.swift */; };
 		3F29ED871EF0D55E00959533 /* RadarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29ED781EF0D55E00959533 /* RadarChartViewController.swift */; };
 		3F29ED881EF0D55E00959533 /* RadarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F29ED791EF0D55E00959533 /* RadarChartViewController.xib */; };
 		3F29ED8A1EF0E86400959533 /* JJOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29ED891EF0E86400959533 /* JJOverlayViewController.swift */; };
 		3F8F7EA01E6814E400030B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8F7E9F1E6814E400030B30 /* Assets.xcassets */; };
 		3F8F7EA31E6814E400030B30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8F7EA11E6814E400030B30 /* LaunchScreen.storyboard */; };
+		3FF5C4721F034C3F004FD134 /* JJAutoLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5C4711F034C3F004FD134 /* JJAutoLayoutController.swift */; };
+		3FF5C4781F035228004FD134 /* JJCodeLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5C4771F035228004FD134 /* JJCodeLayoutController.swift */; };
+		3FF5C47A1F035246004FD134 /* JJSnapKitLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5C4791F035246004FD134 /* JJSnapKitLayoutController.swift */; };
+		3FF5C47C1F039401004FD134 /* JJSnapKitDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FF5C47B1F039401004FD134 /* JJSnapKitDatas.plist */; };
+		3FF5C47E1F03A100004FD134 /* JJSnapKitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5C47D1F03A100004FD134 /* JJSnapKitModel.swift */; };
 		C1A00D9EEFE49669C06C7FDD /* Pods_MySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E368FF2C37373F95B06C6578 /* Pods_MySwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,7 +79,6 @@
 		3F29ED741EF0D55E00959533 /* JJChartsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJChartsCell.swift; sourceTree = "<group>"; };
 		3F29ED751EF0D55E00959533 /* JJChartsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJChartsView.swift; sourceTree = "<group>"; };
 		3F29ED761EF0D55E00959533 /* DemoBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoBaseViewController.swift; sourceTree = "<group>"; };
-		3F29ED771EF0D55E00959533 /* JJTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJTestViewController.swift; sourceTree = "<group>"; };
 		3F29ED781EF0D55E00959533 /* RadarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarChartViewController.swift; sourceTree = "<group>"; };
 		3F29ED791EF0D55E00959533 /* RadarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadarChartViewController.xib; sourceTree = "<group>"; };
 		3F29ED891EF0E86400959533 /* JJOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJOverlayViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +86,11 @@
 		3F8F7E9F1E6814E400030B30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F8F7EA21E6814E400030B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F8F7EA41E6814E400030B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF5C4711F034C3F004FD134 /* JJAutoLayoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJAutoLayoutController.swift; sourceTree = "<group>"; };
+		3FF5C4771F035228004FD134 /* JJCodeLayoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJCodeLayoutController.swift; sourceTree = "<group>"; };
+		3FF5C4791F035246004FD134 /* JJSnapKitLayoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJSnapKitLayoutController.swift; sourceTree = "<group>"; };
+		3FF5C47B1F039401004FD134 /* JJSnapKitDatas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JJSnapKitDatas.plist; sourceTree = "<group>"; };
+		3FF5C47D1F03A100004FD134 /* JJSnapKitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJSnapKitModel.swift; sourceTree = "<group>"; };
 		646798669C9D821C7EAAFC2F /* Pods-MySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySwift/Pods-MySwift.release.xcconfig"; sourceTree = "<group>"; };
 		7DF1A908B77F2F362812FBB4 /* Pods-MySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySwift/Pods-MySwift.debug.xcconfig"; sourceTree = "<group>"; };
 		E368FF2C37373F95B06C6578 /* Pods_MySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +124,7 @@
 			children = (
 				3F164B201E77DAA500B7CB9E /* Controller */,
 				3F164B221E77DAA500B7CB9E /* Model */,
+				3FF5C46D1F034B77004FD134 /* AutoLayout */,
 			);
 			name = Home;
 			path = "Home<首页>";
@@ -199,7 +208,6 @@
 				3F29ED761EF0D55E00959533 /* DemoBaseViewController.swift */,
 				3F29ED781EF0D55E00959533 /* RadarChartViewController.swift */,
 				3F29ED791EF0D55E00959533 /* RadarChartViewController.xib */,
-				3F29ED771EF0D55E00959533 /* JJTestViewController.swift */,
 				3F29ED891EF0E86400959533 /* JJOverlayViewController.swift */,
 			);
 			path = controllers;
@@ -299,6 +307,34 @@
 			path = MySwift;
 			sourceTree = "<group>";
 		};
+		3FF5C46D1F034B77004FD134 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				3FF5C4711F034C3F004FD134 /* JJAutoLayoutController.swift */,
+				3FF5C4741F03514E004FD134 /* SnapKit */,
+				3FF5C4731F035143004FD134 /* Code */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		3FF5C4731F035143004FD134 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				3FF5C4771F035228004FD134 /* JJCodeLayoutController.swift */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		3FF5C4741F03514E004FD134 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				3FF5C4791F035246004FD134 /* JJSnapKitLayoutController.swift */,
+				3FF5C47D1F03A100004FD134 /* JJSnapKitModel.swift */,
+				3FF5C47B1F039401004FD134 /* JJSnapKitDatas.plist */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
 		8CB46C7966A414DD529E3E7A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -353,6 +389,7 @@
 					3F8F7E941E6814E400030B30 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = H874NRF4RE;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -385,6 +422,7 @@
 				3F8F7EA01E6814E400030B30 /* Assets.xcassets in Resources */,
 				3F164B2C1E77DC6800B7CB9E /* JJControllers.plist in Resources */,
 				3F29ED821EF0D55E00959533 /* logoList.plist in Resources */,
+				3FF5C47C1F039401004FD134 /* JJSnapKitDatas.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +488,7 @@
 				3F164B1D1E77DA6100B7CB9E /* JJUserDefaultsExtension.swift in Sources */,
 				3F29ED7B1EF0D55E00959533 /* JJDetailController.swift in Sources */,
 				3F164B1F1E77DA6100B7CB9E /* JJTableViewController.swift in Sources */,
+				3FF5C47E1F03A100004FD134 /* JJSnapKitModel.swift in Sources */,
 				3F29ED7C1EF0D55E00959533 /* JJDetailModel.swift in Sources */,
 				3F29ED581EEFEF3D00959533 /* CALayer_Extension.swift in Sources */,
 				3F29ED7D1EF0D55E00959533 /* JJBarController.swift in Sources */,
@@ -463,16 +502,18 @@
 				3F29ED841EF0D55E00959533 /* JJChartsView.swift in Sources */,
 				3F29ED831EF0D55E00959533 /* JJChartsCell.swift in Sources */,
 				3F164B1E1E77DA6100B7CB9E /* JJUserDefaultsProtocol.swift in Sources */,
+				3FF5C47A1F035246004FD134 /* JJSnapKitLayoutController.swift in Sources */,
 				3F164B1A1E77DA6100B7CB9E /* JJBaseNaviController.swift in Sources */,
 				3F29ED851EF0D55E00959533 /* DemoBaseViewController.swift in Sources */,
 				3F29ED811EF0D55E00959533 /* JJCommonModel.swift in Sources */,
 				3F29ED5B1EEFEF3D00959533 /* UIView_Extension.swift in Sources */,
-				3F29ED861EF0D55E00959533 /* JJTestViewController.swift in Sources */,
+				3FF5C4721F034C3F004FD134 /* JJAutoLayoutController.swift in Sources */,
 				3F29ED621EEFEFAD00959533 /* SnailSampleViews.swift in Sources */,
 				3F29ED871EF0D55E00959533 /* RadarChartViewController.swift in Sources */,
 				3F164B1B1E77DA6100B7CB9E /* JJTabBarController.swift in Sources */,
 				3F21ACA61EEA999300D2B238 /* JJUser.swift in Sources */,
 				3F29ED5E1EEFEF8000959533 /* OverlayController.swift in Sources */,
+				3FF5C4781F035228004FD134 /* JJCodeLayoutController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,11 +627,13 @@
 			baseConfigurationReference = 7DF1A908B77F2F362812FBB4 /* Pods-MySwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = H874NRF4RE;
 				INFOPLIST_FILE = MySwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = itclimb.yuancheng.com.MySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -600,6 +643,7 @@
 			baseConfigurationReference = 646798669C9D821C7EAAFC2F /* Pods-MySwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = H874NRF4RE;
 				INFOPLIST_FILE = MySwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
