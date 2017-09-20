@@ -14,10 +14,10 @@ class JJHomeController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
         view.addSubview(list)
-    
+        print("hello xcode9")
         test(parameter1: 30)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
@@ -43,14 +43,14 @@ class JJHomeController: UIViewController {
         })
         return arrM
     }()
-
+    
 }
 
 /**
  * UITableViewDataSource,UITableViewDelegate
  */
 extension JJHomeController: UITableViewDataSource,UITableViewDelegate{
-
+    
     @available(iOS 2.0, *)
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -93,7 +93,7 @@ extension JJHomeController: UITableViewDataSource,UITableViewDelegate{
         case 4:
             let vc = JJOverlayViewController() //覆盖图
             self.navigationController?.pushViewController(vc, animated: true)
-
+            
         default: break
             
         }
@@ -109,7 +109,7 @@ func formatRichText(value: String) -> NSMutableAttributedString {
     valueAttri.addAttribute(NSForegroundColorAttributeName, value: UIColor.red, range: NSMakeRange(0, valueLength))
     valueAttri.addAttribute(NSForegroundColorAttributeName, value: UIColor.blue, range: NSMakeRange(valueLength, signLength - 1))
     valueAttri.addAttribute(NSFontAttributeName, value: UIFont.systemFont(ofSize: 20), range: NSMakeRange(valueLength, signLength - 1))
-
+    
     return valueAttri
 }
 

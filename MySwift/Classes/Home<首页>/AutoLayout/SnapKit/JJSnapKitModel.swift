@@ -13,7 +13,7 @@ class JJSnapKitModel: NSObject {
     var title: String!
     var author: String!
     var content: String!
-    var isExpand = false
+    var isExpand = false //注：swift中数字必须赋值！
     
     init(dict: [String : Any]) {
         super.init()
